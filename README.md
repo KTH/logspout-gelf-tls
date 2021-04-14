@@ -1,10 +1,6 @@
-## Build status
-[![Build Status](https://dev.azure.com/ktharchitecture/logspout-gelf-tls/_apis/build/status/mictsi.logspout-gelf-tls?branchName=master)](https://dev.azure.com/ktharchitecture/logspout-gelf-tls/_build/latest?definitionId=5&branchName=master)
+# Logspout with GELF adapter and TCP+TLS support [![Build Status](https://dev.azure.com/ktharchitecture/logspout-gelf-tls/_apis/build/status/mictsi.logspout-gelf-tls?branchName=master)](https://dev.azure.com/ktharchitecture/logspout-gelf-tls/_build/latest?definitionId=5&branchName=master)
 
-# Logspout with GELF adapter and TCP+TLS support
-A logspout docker image with TLS support. 
-
-This image contains [Logspout](https://github.com/gliderlabs/logspout) which is compiled with [GELF adapter] and originally forked from https://github.com/karlvr/logspout-gelf so you can forward Docker logs in GELF to a Graylog server.
+**A logspout docker image with TLS support. This image contains [Logspout](https://github.com/gliderlabs/logspout) which is compiled with [GELF adapter] and originally forked from https://github.com/karlvr/logspout-gelf so you can forward Docker logs in GELF to a Graylog server.**
 
 # Docker hub images
 Images are published in the following registry, https://hub.docker.com/r/kthse/logspout-gelf-tls
